@@ -92,9 +92,9 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center gap-3 group cursor-pointer">
             <div className="w-10 h-10 bg-primary text-white rounded-xl flex items-center justify-center font-bold text-xl shadow-lg shadow-primary/20 group-hover:scale-105 transition-transform duration-300">
-              P
+              Q
             </div>
-            <span className="font-bold text-xl tracking-tight text-primary">ProcureFlow</span>
+            <span className="font-bold text-xl tracking-tight text-primary">quickly4u</span>
           </div>
           
           <div className="hidden md:flex items-center space-x-1">
@@ -486,7 +486,7 @@ const ValueProp = () => {
               The End of <br/><span className="italic text-gray-400 font-serif">Rogue Spend.</span>
             </h3>
             <p className="text-xl text-gray-400 mb-12 leading-relaxed font-light border-l-2 border-gray-800 pl-6">
-              Enterprise suites like SAP Ariba are too expensive and complex. SMB tools like spreadsheets break at scale. ProcureFlow bridges the gap.
+              Enterprise suites like SAP Ariba are too expensive and complex. SMB tools like spreadsheets break at scale. quickly4u bridges the gap.
             </p>
             
             <div className="space-y-8">
@@ -592,59 +592,14 @@ const CTA = () => {
 
 const Footer = () => {
   return (
-    <footer className="bg-primary text-white pt-24 pb-12 border-t border-gray-800">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-12 mb-20">
-          <div className="col-span-2 lg:col-span-2 pr-8">
-            <div className="flex items-center gap-3 mb-8">
-              <div className="w-8 h-8 bg-accent flex items-center justify-center text-primary font-bold text-lg rounded-none">P</div>
-              <span className="font-serif font-bold text-2xl tracking-tight">ProcureFlow</span>
-            </div>
-            <p className="text-sm text-gray-400 mb-8 max-w-xs leading-relaxed">
-              The first deeply integrated Procurement + Vendor + Contract system engineered for mid-market efficiency.
-            </p>
-          </div>
-          
-          <div>
-            <h4 className="font-bold text-gray-500 mb-8 text-xs uppercase tracking-widest">Product</h4>
-            <ul className="space-y-4 text-sm text-gray-300 font-medium">
-              <li><a href="#" className="hover:text-accent transition-colors">Workflows</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Vendor Portal</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Contracts</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Pricing</a></li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="font-bold text-gray-500 mb-8 text-xs uppercase tracking-widest">Resources</h4>
-            <ul className="space-y-4 text-sm text-gray-300 font-medium">
-              <li><a href="#" className="hover:text-accent transition-colors">Documentation</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">API Reference</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Community</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Blog</a></li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="font-bold text-gray-500 mb-8 text-xs uppercase tracking-widest">Company</h4>
-            <ul className="space-y-4 text-sm text-gray-300 font-medium">
-              <li><a href="#" className="hover:text-accent transition-colors">About</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Careers</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Legal</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Contact</a></li>
-            </ul>
-          </div>
+    <footer className="bg-primary text-white py-12 border-t border-gray-800">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center text-center">
+        <div className="flex items-center gap-3 mb-6">
+          <div className="w-8 h-8 bg-accent flex items-center justify-center text-primary font-bold text-lg rounded-none">Q</div>
+          <span className="font-serif font-bold text-2xl tracking-tight">quickly4u</span>
         </div>
-        
-        <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <div className="text-xs text-gray-500 font-mono">
-            &copy; {new Date().getFullYear()} ProcureFlow Inc. All rights reserved.
-          </div>
-          <div className="flex gap-8 text-xs text-gray-500 font-bold uppercase tracking-wider">
-            <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
-            <a href="#" className="hover:text-white transition-colors">Security</a>
-          </div>
+        <div className="text-xs text-gray-500 font-mono">
+          &copy; {new Date().getFullYear()} quickly4u. All rights reserved.
         </div>
       </div>
     </footer>
